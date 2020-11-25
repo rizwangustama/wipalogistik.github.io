@@ -1,0 +1,108 @@
+@font-face {
+    font-style: 'Futura';
+    src: url('./unicode.futurab.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#pertama {
+    background-color: #45D354;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+#pertama .gambar {
+    background: url(./asset/Background.png);
+    width: 100%;
+    height: 600px;
+}
+#pertama .konten {
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+.konten .judul {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.konten .judul h1, .judul p {
+    font-family: 'Futura';
+    text-align: center;
+    font-size: 74px;
+}
+
+.konten .judul h1 {
+    font-size: 74px;
+}
+
+.konten .judul p {
+    font-size: 26px;
+}
+
+#kedua {
+    background-color: #45D354;
+    width: 100%;
+    height: 615px;
+}
+#kedua .dua {
+    display: flex;
+}
+
+#kedua .main {
+    margin: auto;
+    align-items: center;
+}
+
+#kedua .judul h1 {
+    font-family: 'Futura';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#kedua .konten {
+    display: flex;
+}
+
+#kedua .konten .row:nth-last-child(2) {
+    margin: 0 30px;
+}
+
+#kedua .konten .row {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#kedua .konten .row .d-dua {
+    margin: 25px 0 auto auto;
+}
+#kedua .konten .row .isi h2 {
+    font-size: 14px;
+}
+
+#kedua .konten .row .isi p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+#kedua .konten .row .tiga {
+    margin: 40px 0 auto  auto;
+}
