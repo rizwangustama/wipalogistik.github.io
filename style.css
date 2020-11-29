@@ -18,7 +18,7 @@
 }
 
 #pertama {
-    background-color: #45D354;
+    background: #45D354;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -29,6 +29,8 @@
     background: url(./asset/Background.png);
     width: 100%;
     height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #pertama .konten {
     margin: auto;
@@ -105,4 +107,109 @@
 
 #kedua .konten .row .tiga {
     margin: 40px 0 auto  auto;
+}
+
+
+#ketiga {
+    background-color: #45D354;
+    width: 100%;
+    height: 615px;
+}
+
+#ketiga .k-main {
+    margin: auto;
+    height: 100%;
+    align-items: center;
+}
+
+.k-judul h1 {
+    padding-top: 80px;
+    font-size: 30px;
+    font-family: 'Futura';
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#ketiga .k-konten{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+
+#ketiga .k-konten .row {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#ketiga .k-konten .row:nth-last-child(2) {
+    margin: 0 25px;
+}
+
+#ketiga .k-konten .row .k-isi h3 {
+    margin: 25px 0px 10px 0;
+}
+
+#ketiga .k-konten .row .k-isi p {
+    font-size: 15px;
+}
+
+#empat{
+    background: #45D354;
+    padding: 150px 0;
+}
+
+#empat .e-main h1 {
+    margin: 50px;
+    text-align: center;
+}
+
+#empat .e-main .e-konten {
+    display: flex;
+    justify-content: space-between;
+}
+
+#empat .e-main .e-konten .row img {
+    height: 200px;
+}
+
+
+#empat .e-main .e-konten .row h3, 
+#empat .e-main .e-konten .row p{
+    text-align: center;
+}
+
+#empat .e-main .e-konten .row h3 {
+    margin-top: 25px;
+}
+
+#lima .l-main {
+    display: flex;
+}
+
+.kiri {
+    margin: auto;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+
+
+.kiri .img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.kiri img {
+    width: 400px;
+}
+
+.kanan {
+    width: 50%;
+    background: #404B0C;
+}
+.l-konten {
+    display: flex;
 }
