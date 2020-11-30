@@ -192,6 +192,7 @@
     margin: auto;
     display: flex;
     width: 50%;
+    background: #45D354;
     justify-content: center;
 }
 
@@ -199,6 +200,7 @@
 
 .kiri .img {
     display: flex;
+    margin: 100px 0;
     width: 100%;
     justify-content: center;
 }
